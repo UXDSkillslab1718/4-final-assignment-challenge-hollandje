@@ -8,6 +8,50 @@ body {
 	margin-right: auto;
 }
 
+.nav {
+	font-family: 'Teko', sans-serif;
+	width: 100%;
+}
+
+.header {
+	width: 100%;
+}
+
+#myVideo {
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.overlayVideo {
+	background: blue;
+	z-index: 30000;
+}
+
+.footer {
+	width: 100%;
+}
+
+.logo{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 260px;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.logo img {
+	 width:260px;
+	 height:58px ;
+}
+
+inline-block {
+	margin-right: auto;
+	margin-left: auto;
+}
+
 p {
 	color: white;
 }
@@ -16,4 +60,23 @@ h1 {
 	color: white;
 	font-size: 64px;
 	font-weight: bold;
+	font-family: 'Teko', sans-serif;
+	margin: 0px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+@media (max-width: 465px) {
+	.logo img {
+		max-width: 782px;
+		width: 75%;
+		height: 75%;
+	}
+
+	.logo {
+		width: 75%;
+	}
 }
