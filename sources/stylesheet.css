@@ -22,11 +22,32 @@ body {
   bottom: 0;
   min-width: 100%; 
   min-height: 100%;
+  z-index: -1;
 }
 
 .overlayVideo {
-	background: blue;
-	z-index: 30000;
+	background-image: linear-gradient(to left, rgb(0,0,0,0) , rgb(31,31,31,0.85));
+	z-index: 0;
+	min-height: 100%;
+	min-width: 100%;
+	display: block;
+}
+
+.workEntry {
+	width: 380px;
+	height: 380px;
+	display: inline-block;
+}
+
+article {
+	position: absolute;
+	width: 45%;
+	height: 50%;
+}
+
+.textOverlay {
+	margin-left: 8%;
+	margin-top: 15%;
 }
 
 .footer {
@@ -62,6 +83,19 @@ h1 {
 	font-weight: bold;
 	font-family: 'Teko', sans-serif;
 	margin: 0px;
+}
+
+h2 {
+	color: white;
+	font-family: 'Rubik', sans-serif;
+}
+
+h3 {
+	top: 50%;
+ 	left: 50%;
+  	transform: translate(-50%, -50%);
+	color: white;
+	font-family: 'Rubik', sans-serif;
 }
 
 a {
