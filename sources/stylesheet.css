@@ -39,15 +39,34 @@ body {
 	display: inline-block;
 }
 
-article {
+main {
 	position: absolute;
 	width: 45%;
 	height: 50%;
 }
 
+section {
+	border-style: solid;
+	border-color: white;
+	width: 100%;
+}
+
+article {
+	border-color: red;
+	border-style: solid;
+}
+
+.leftColumn {
+
+}
+
+.rightColumn {
+	display: inline;
+}
+
 .textOverlay {
 	margin-left: 8%;
-	margin-top: 15%;
+	margin-top: 20%;
 }
 
 .footer {
@@ -65,7 +84,7 @@ article {
 
 .logo img {
 	 width:260px;
-	 height:58px ;
+	 height:58px;
 }
 
 inline-block {
