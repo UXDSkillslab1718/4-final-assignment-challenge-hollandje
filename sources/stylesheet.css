@@ -8,9 +8,21 @@ body {
 	margin-right: auto;
 }
 
-.nav {
+nav {
 	font-family: 'Teko', sans-serif;
 	width: 100%;
+	text-align: center;
+	font-weight: bold; 
+	padding-bottom: 10px;
+}
+
+nav a {
+	opacity: 0.75;
+}
+
+a:hover {
+	opacity: 1;
+	transition: 0.3s;
 }
 
 .header {
@@ -51,17 +63,31 @@ section {
 	width: 100%;
 }
 
-article {
+nav ul {
+	margin:0; 
+	padding-left:0px;
+}
+
+nav ul a {
+	padding-right: 20px;
+}
+
+a h2:hover {
+	text-decoration-line: underline;
+}
+
+.leftColumn {
+	width: 50%;
+	display: inline;
 	border-color: red;
 	border-style: solid;
 }
 
-.leftColumn {
-
-}
-
 .rightColumn {
 	display: inline;
+	width: 50%;
+	border-color: red;
+	border-style: solid;
 }
 
 .textOverlay {
