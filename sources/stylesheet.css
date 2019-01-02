@@ -21,7 +21,7 @@ nav ul a {
 }
 
 nav a {
-	opacity: 0.75;
+	opacity: 0.6;
 }
 
 nav a:hover {
@@ -81,13 +81,55 @@ a {
 	text-decoration: none;
 }
 
+video {
+	position: relative;
+}
+
+footer {
+	text-align: center;
+}
+
+footer img {
+	width: 7%;
+	height: 7%;
+	position: absolute;
+}
+
+footer p {
+	/*display: inline;*/
+}
+
+article img {
+	border-radius: 8px;
+	box-shadow: 4px 4px 20px -6px rgba(0, 0, 0, 0.8);
+	border-radius: 8px;
+  	display: inline;
+  	margin-left: 25px;
+}
+
+article h1 {
+	font-size: 48px;
+}
+
+.spacer {
+	width: 70%;
+	display: inline;
+	left: 0;
+	right: 0;
+	margin: auto;
+	position: absolute;
+	bottom: 25%;
+}
+
+.description {
+	width: 50%;
+	float: right;
+	margin: 25px;
+}
+
 .center {
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.header {
-	width: 100%;
 }
 
 #myVideo {
@@ -154,7 +196,6 @@ a {
 }
 
 .leftColumn {
-	width: 50%;
 	display: inline;
 	border-color: red;
 	border-style: solid;
@@ -162,7 +203,6 @@ a {
 
 .rightColumn {
 	display: inline;
-	width: 50%;
 	border-color: red;
 	border-style: solid;
 }
@@ -170,10 +210,6 @@ a {
 .textOverlay {
 	margin-left: 8%;
 	margin-top: 20%;
-}
-
-.footer {
-	width: 100%;
 }
 
 .logo{
