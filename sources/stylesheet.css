@@ -104,7 +104,7 @@ article img {
 	box-shadow: 4px 4px 20px -6px rgba(0, 0, 0, 0.8);
 	border-radius: 8px;
   	display: inline;
-  	margin-left: 25px;
+  	margin-right: 20px;
 }
 
 article h1 {
@@ -112,26 +112,26 @@ article h1 {
 }
 
 .spacer {
-	width: 70%;
-	display: inline;
-	left: 0;
-	right: 0;
-	margin: auto;
-	position: absolute;
-	bottom: 25%;
+	width: 80%;
+  	max-width: 1800px;
+  	min-height: 75%;
+  	position: absolute;
+  	top: 16%;
+  	left: 0;
+  	right: 0;
+  	margin: auto;
 }
 
 .descriptionRight {
-	width: 50%;
-	float: right;
-	margin: 25px;
+	width: 60%;
+  	float: right;
+  	margin-right: 45px;
 }
 
 .descriptionLeft {
-	width: 50%;
-	float: left;
-	top: 0;
-	bottom: 0;
+	width: 60%;
+  	float: left;
+  	margin-left: 45px;
 }
 
 .active {
@@ -250,5 +250,40 @@ article h1 {
 
 	.logo {
 		width: 75%;
+	}
+}
+
+@media (max-width: 1823px) {
+	article img {
+		width: 30%;
+		height: 30%;
+	}
+}
+
+@media (max-width: 1470px) {
+	article p {
+		font-size: 80%;
+	}
+
+	article h1 {
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 825px) {
+	article p {
+		font-size: 60%;
+	}
+
+	article h1 {
+		font-size: 20px;
+	}
+
+	.descriptionRight {
+		margin-right: 0px;
+	}
+
+	.descriptionLeft {
+		margin-left: 0px;
 	}
 }
