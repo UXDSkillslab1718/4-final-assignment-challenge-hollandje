@@ -121,10 +121,25 @@ article h1 {
 	bottom: 25%;
 }
 
-.description {
+.descriptionRight {
 	width: 50%;
 	float: right;
 	margin: 25px;
+}
+
+.descriptionLeft {
+	width: 50%;
+	float: left;
+	top: 0;
+	bottom: 0;
+}
+
+.active {
+	opacity: 1;
+}
+
+.no_ul_padding {
+	padding-left: 0px;
 }
 
 .center {
