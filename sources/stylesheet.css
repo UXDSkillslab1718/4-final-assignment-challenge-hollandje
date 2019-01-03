@@ -129,6 +129,11 @@ article {
 	margin: 20px auto;
 }
 
+.break {
+	width: 100%;
+	height: 20px;
+}
+
 .experienceContainer {
 	display: inline-table;
 }
