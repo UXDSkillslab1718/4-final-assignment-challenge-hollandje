@@ -75,7 +75,7 @@ h3 {
 	font-family: 'Rubik', sans-serif;
 }
 
-a {
+nav a {
 	color: white;
 	text-decoration: none;
 }
@@ -118,6 +118,12 @@ article h1 {
 	font-size: 48px;
 }
 
+article a {
+		font-style: bold;
+		color: white;
+}
+
+
 article {
 	width: 80%;
 	margin: 20px auto;
@@ -139,7 +145,6 @@ article {
   	top: 16%;
   	left: 0;
   	right: 0;
-
 }
 
 .spacer_02 {
@@ -148,6 +153,7 @@ article {
   	top: 16%;
   	left: 0;
   	right: 0;
+  	margin: 0 auto;
 }
 
 .descriptionRight {
@@ -170,9 +176,9 @@ article {
 	padding-left: 0px;
 }
 
-.center {
-	margin-left: auto;
-	margin-right: auto;
+.title_main {
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 #myVideo {
@@ -285,6 +291,10 @@ article {
 	article img {
 		width: 30%;
 		height: 30%;
+	}
+
+	article h1 {
+		margin-top: 0px;
 	}
 }
 
