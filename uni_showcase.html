@@ -10,7 +10,9 @@
 <body>
 	<header>
 		<a href="index.html" class="logo">
-			<img src="sources/images/header_top.png">
+			<figure>
+				<img src="sources/images/header_top.png">
+			</figure>
 		</a>
 		<nav>
 			<ul>
@@ -26,35 +28,47 @@
 			<div class="title_main">
 				<h1>Programming Bootcamp</h1>
 			</div>
-			<img src="sources/images/bootcamp.jpg">
+			<figure>
+				<img src="sources/images/bootcamp.jpg">
+			</figure>
 			<div class="descriptionRight">
 				<p>The programming bootcamp was a part of the Digital Skills subject and took place in the first week after the first module. Within 5 days we were introduced to the basic concepts of coding through a software called Processing. I found the programming bootcamp a very valuable in starting the foundation of my coding knowledge. I myself have never been a person that likes to code things. This is mainly because I make stupid mistakes and stare myself blind on small problems. It also does not really help that I have a hard time translating my idea into the codes’ syntax.</p>
 				<p>Even though it took me a long time to get a grasp of the language I did think it was fun to create something with code instead of using Photoshop.  There were a lot of moments where I got really frustrated with my code and my coding abilities. However, what I really enjoyed were the moments where all of a sudden it made sense and my code was working. I am also very happy that I can finally understand the logic behind conditionals, arrays and loops. I have always seen code and never really truly understood how it all worked. Now when I look at java source codes I can follow what the code is doing and I am really glad that I now can.</p>
 			</div>
 			<div class="break"></div>
-			<img src="sources/images/assignment_01.jpg">
+			<figure>
+				<img src="sources/images/assignment_01.jpg">
+			</figure>
 			<div class="descriptionRight">
 				<p>The assignment we got for day 1 was to write a code that would generate a different outcome in an overarching theme every time we ran it. This was an interesting one and my first idea was to create a randomizing painting in the style of Mondriaan. Because the painting in itself only exists out of squares with 5 basic colours it seemed like a feasible goal. In the first few lines I started defining the 5 colours. Background, red, blue, and yellow. With the colours defined I could now start with the actual randomization of my rectangles. Initially I thought I could just have one randomization variable which would then run every time I referred to it. However, in reality it just ran the randomization just once and caused all the squares to be identical and stack on top of one another.</p>
 				<p>So instead of having the randomization happen once and applied to all rectangles I made it run separately on every rectangle. Now the rectangles got a random position and a random size. With what we learned on day 1 I was not able to make the squares not interfere with each other. The squares were sadly enough also not randomized in order. With this I mean that that every set of squares were in the same order. First red, yellow, blue and white. This caused for a rather messy representation of the painting by Pieter Mondriaan. However, in essence it resembles the style of Pieter Mondriaan.</p>
 			</div>
-			<div class="break"></div>		
-			<img src="sources/images/assignment_02.gif">
+			<div class="break"></div>
+			<figure>		
+				<img src="sources/images/assignment_02.gif">
+			</figure>
 			<div class="descriptionRight">
 				<p>The assignment for day 2 was to create a small game where there is basic user interaction. At first I wanted to create something along the lines of the original Donkey Kong where the user has to climb up to a finish line and avoid falling down. However, I quickly noticed that this was a bit harder and complex than I initially thought. I would need to get some form of gravity that would pull the player down and have shapes that were solid. So instead of doing that I decided to go for a simple game where the user can use the arrow keys to manoeuvre past rectangles coming in from the side. I wanted the obstacles to reset so the level would be infinite. For this to work I could use the conditionals that were taught today. The end product was not exactly what I wanted because I was not able to code the player dying when he/she hit an obstacle. </p>
 			</div>
 			<div class="break"></div>
-			<img src="sources/images/assignment_03.gif">
+			<figure>
+				<img src="sources/images/assignment_03.gif">
+			</figure>
 			<div class="descriptionRight">
 				<p>For our third assignment we have to create an interactive image that incorporates dynamic patterns and used several loops. I remember on the first day I was browsing openprocessing.org and saw an interesting piece which I wanted to try and recreate. The piece was a sphere with lines coming from the edge to the centre and it responded to user input by having the lines move if the mouse passed through them. They were not rigid but more like rope and had particle effects flying off them. I knew that was a bit too advanced so I decided to make my own version inspired by it. I first created a simple sphere with no fill which was my border. Then I used a for loop to have lines coming from the side to the mouse cursor’s x and y position. At this point the lines were also visible outside the circle so I create a bigger on with a thick stroke. I know it is not the best way to do it but I am not able to use the arch function because I simply do not grasp the concept of them. Lastly I made the colours of the stroke change based on the position of the mouse by using those coordinates as colour values.</p>
 			</div>
 			<div class="break"></div>
-			<img src="sources/images/assignment_04.gif">
+			<figure>
+				<img src="sources/images/assignment_04.gif">
+			</figure>
 			<div class="descriptionRight">
 				<p>The assignment for day 4 is to create a game which has a main character, obstacles/enemies and something that keeps track of score. I will be creating a game which in essence is like arkanoid. You move the peddle to keep the ball bouncing around the level and every time you bounce it you gain 1 point. It gets progressively harder each time it bounces because the speed will increase.</p>
 				<p>So in order for this to work I need to code a couple of things. First and foremost, the paddle which will be our avatar. You need to be able to move it so I will need to create a player controller. Secondly I need a playing field which functions as borders for our ball to bounce around in. The bouncing can be done by inverting the direction the ball is going in with a conditional. Lastly we want something that keeps the score so I will be using the println function to keep track every time the ball bounces on the peddle. </p>
 			</div>
 			<div class="break"></div>
-			<img src="sources/images/assignment_05.gif">
+			<figure>
+				<img src="sources/images/assignment_05.gif">
+			</figure>
 			<div class="descriptionRight">
 				<p>On day 5 we get the whole day to create something that we are proud of. The requirements are that I need to use shapes, colours, user input, conditionals, functions, loops and arrays. So all in all, I need to use everything we learned in the last 4 days. At first I wanted to improve upon the game that I made yesterday but after talking to Chris he advised me to start from scratch and create something else. I ended up creating an interactive ‘art’ piece.</p>
 				<p>In the piece the user can move his mouse around to create a path for the sphere. The sphere leaves a trail behind which slowly fades away. When the user presses the mouse button it will trigger the colour of the sphere to change randomly. The sphere itself changes colour within the orange tone and the size changes. The breathing background is created with array and loops and has a radar like esque.</p>
@@ -62,13 +76,14 @@
 	</article>
 	<div class="divider">	
 		<footer>
-			<div class="spacer_02">
-				<img src="sources/images/logo_01.png">
-				<div class="descriptionRight">
-					<p>© Julien Heesterman</p>
-					<br>
-					<p>Something Something this website is my own intellectual property and you can not steal it.</p>
-				</div>
+			<div class="footercontainer">
+				<figure>
+					<img src="sources/images/logo_01.png">
+				</figure>
+					<div class="vertical-center">
+						<p>© Julien Heesterman |</p>
+						<p>Something Something this website is my own intellectual property and you can not steal it.</p>
+					</div>
 			</div>
 		</footer>
 	</div>
